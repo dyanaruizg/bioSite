@@ -65,15 +65,29 @@ nav li a:hover {
     width: 100%;
     height: 50%;
     padding-top: 20px;
+    border-radius: 5px;
+}
+
+.imgAbout {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .card {
     background-color: white;
     padding: 10px 30px;
-    font-size: 1.15em;
+    font-size: 1em;
     font-family: 'Dosis', sans-serif;
     border: 0.5px solid lightgray;
     text-align: justify;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.about-mob {
+    padding: 0 20px;
 }
 
 .titleCard {
@@ -83,13 +97,21 @@ nav li a:hover {
 .lastCard {
     background-color: white;
     padding: 10px 30px;
-    font-size: 1.15em;
+    font-size: 1em;
     font-family: 'Dosis', sans-serif;
     text-align: justify;
 }
 
 .mobile li {
     padding: 20px;
+}
+
+.grid {
+    padding: 20px;
+}
+
+hr {
+    border: #EDEBEB;
 }
 
 * {
@@ -102,6 +124,20 @@ tr:nth-child(even) {
 
 .mobile li:nth-child(even) {
     background-color: #E3EBFA;
+}
+
+figure {
+    border: 0.5px solid lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 400px;
+    margin: 2% auto;
+  }
+  
+figcaption {
+    padding: 2%;
+    border-top: 0.5px solid lightgray;
+    font-family: 'Dosis', sans-serif;
+    text-align: justify;
 }
 
 /* Style rules for footer content */
@@ -220,4 +256,16 @@ footer a {
     .titleCard {
         font-size: 1.5em;
     }
+
+    .imgAbout {
+        padding: 50px;
+        border-radius: 60px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 30px;
+        padding: 30px;
+    }    
 }
