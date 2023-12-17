@@ -57,7 +57,7 @@ nav li a:hover {
 }
 
 #bioName:hover {
-    background-color: white;
+    background-color: #e3e3e3;
 }
 
 /* Style rules for main content */
@@ -102,6 +102,10 @@ nav li a:hover {
     text-align: justify;
 }
 
+.listConcerts {
+    margin-left: 20px;
+}
+
 .mobile li {
     padding: 20px;
 }
@@ -126,8 +130,16 @@ tr:nth-child(even) {
     background-color: #E3EBFA;
 }
 
+aside {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}
+
 figure {
     border: 0.5px solid lightgray;
+    font-family: 'Dosis', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     max-width: 400px;
     margin: 2% auto;
@@ -136,6 +148,7 @@ figure {
 figcaption {
     padding: 2%;
     border-top: 0.5px solid lightgray;
+    background-color: white;
     font-family: 'Dosis', sans-serif;
     text-align: justify;
 }
@@ -190,6 +203,7 @@ footer a {
     nav li a {
       padding: 0.5em;
     }
+
   }
   /* Media Query for Large Desktop Viewports */
   @media screen and (min-width: 1921px) {
@@ -278,5 +292,10 @@ footer a {
         grid-template-columns: auto auto auto;
         grid-gap: 30px;
         padding: 30px;
-    }    
+    }  
+    
+    aside {
+        grid-column: 1 / span 3;
+        font-size: 2em;
+    }
 }
