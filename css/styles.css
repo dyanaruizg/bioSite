@@ -114,6 +114,17 @@ nav li a:hover {
     padding: 20px;
 }
 
+.hobbyTitle {
+    text-align: center;
+}
+
+.aboutTitle {
+    text-align: center;
+    font-size: 1.25em;
+    font-family: 'Dosis', sans-serif;
+    font-style: bold;
+}
+
 hr {
     border: #EDEBEB;
 }
@@ -280,6 +291,10 @@ footer a {
   
     .titleCard {
         font-size: 1.5em;
+    }
+
+    .aboutTitle {
+        font-size: 1.8em;
     }
 
     .imgAbout {
