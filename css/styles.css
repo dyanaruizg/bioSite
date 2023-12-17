@@ -140,6 +140,17 @@ figcaption {
     text-align: justify;
 }
 
+/* CSS Pseudo classes and elements not covered in the course’s textbook */
+::selection {
+    color: white;
+    background: lightgray;;
+}
+
+p.textCard::first-letter {
+    font-style: bold;
+    font-size: xx-large;
+}
+
 /* Style rules for footer content */
 footer {
     text-align: center;
