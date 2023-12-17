@@ -122,7 +122,6 @@ nav li a:hover {
     text-align: center;
     font-size: 1.25em;
     font-family: 'Dosis', sans-serif;
-    font-style: bold;
 }
 
 hr {
@@ -171,7 +170,6 @@ figcaption {
 }
 
 p.textCard::first-letter {
-    font-style: bold;
     font-size: xx-large;
 }
 
