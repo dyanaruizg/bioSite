@@ -57,7 +57,7 @@ nav li a:hover {
 }
 
 #bioName:hover {
-    background-color: #e3e3e3;
+    background-color: white;
 }
 
 /* Style rules for main content */
@@ -264,7 +264,7 @@ footer a {
   
     nav li a :hover {
       color: #2a1f14;
-      background-color: #f6eee4;
+      background-color: white;
     }
 
     #bioName {
